@@ -1,11 +1,12 @@
 package com.example.spring.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.spring.mail.MailSender;
-import com.example.spring.mail.MockMailSender;
+
 
 @RestController
 public class MailController {
@@ -14,7 +15,7 @@ public class MailController {
 	
 	private MailSender mailSender;
 	// @Autowired
-	public MailController(MailSender smtp) {
+	public MailController(@Qualifier("smtpMailSender") MailSender smtp) {
 		this.mailSender = smtp;
 	}
 
