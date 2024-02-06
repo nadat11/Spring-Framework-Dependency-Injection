@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MockMailSender.java&apos; to &apos;demo-spring5/src/main/java/com.example.spring.mail&apos;&#x0D;&#x0A;- Original project: &apos;demo-spring5&apos;&#x0D;&#x0A;- Destination element: &apos;demo-spring5/src/main/java/com.example.spring.mail&apos;&#x0D;&#x0A;- Original element: &apos;com.example.spring.mail.MockMailSender.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.spring.mail" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.spring.mail{MockMailSender.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1707057755194" units="1" version="1.0"/>
+</session>
