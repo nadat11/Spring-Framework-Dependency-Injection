@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	
 	// java -jar .\demo-spring5-0.0.1-SNAPSHOT.jar
-	@Value("${app.name}")
-	private String appName;
+//	@Value("${app.name}")
+//	private String appName;
 	
 	@RequestMapping("/hello")
 	public String helo() {
-		return "Hello " + appName;
+		return "Hello ";
 	}
 }
