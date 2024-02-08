@@ -15,7 +15,7 @@ public class MailController {
 	
 	private MailSender mailSender;
 	// @Autowired
-	public MailController(@Qualifier("smtpMailSender") MailSender smtp) {
+	public MailController(MailSender smtp) {
 		this.mailSender = smtp;
 	}
 
