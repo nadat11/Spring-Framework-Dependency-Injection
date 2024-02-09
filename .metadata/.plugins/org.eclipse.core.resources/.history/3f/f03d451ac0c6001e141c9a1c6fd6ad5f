@@ -1,0 +1,12 @@
+package com.example.spring.mail;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class DeamoBean {
+
+	public DeamoBean() {
+		
+		private static Long log = LogFactory.getLog(DemoBean.class);
+	}
+
+}
