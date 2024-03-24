@@ -1,9 +1,0 @@
-package com.example.spring.mail;
-
-public class DeamoBean {
-
-	public DeamoBean() {
-		
-	}
-
-}

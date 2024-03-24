@@ -3,14 +3,14 @@ package com.example.spring.controllers;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.spring.mail.MailSender;
+
 @RestController
 public class MailController {
 
-	//private MailSender mailSender = new MockMailSender();
-
+	// private MailSender mailSender = new MockMailSender();
 	private MailSender mailSender;
-	// @Autowired
-	
+
+	// @Autowire
 	public MailController(MailSender smtp) {
 		this.mailSender = smtp;
 	}
